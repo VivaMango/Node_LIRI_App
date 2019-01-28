@@ -1,0 +1,25 @@
+{
+  "name": "node_liri_app",
+  "version": "1.0.0",
+  "description": "LIRI Wk10 HW",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivaMango/Node_LIRI_App.git"
+  },
+  "author": "VivaMango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivaMango/Node_LIRI_App/issues"
+  },
+  "homepage": "https://github.com/VivaMango/Node_LIRI_App#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  }
+}
