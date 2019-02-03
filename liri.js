@@ -147,7 +147,6 @@ function spotifyCall(spotifySearch) {
         type: 'track', 
         query: spotifySearch 
     }).then(function(response) {
-        console.log(response.tracks.items[0]);
         var firstTrack = response.tracks.items[0]
         var artistArray = []
         for (var i in firstTrack.artists) {
